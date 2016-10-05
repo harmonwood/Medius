@@ -16,3 +16,9 @@
 /web/bundles/
 /web/*/*_[0-9].js
 /web/*/*_[0-9].css
+/web/*/*_[0-9].svg
+/web/*/*_[0-9].ttf
+/web/*/*_[0-9].eot
+/web/*/*_[0-9].woff
+/web/*/*_[0-9].png
+/web/*/*_[0-9].gif
