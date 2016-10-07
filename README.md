@@ -3,6 +3,12 @@ medius
 
 A Symfony project created on October 4, 2016, 5:32 pm.
 
+Live Demo
+=========
+Checkout the live demo at:
+https://harmonwood.com/medius/
+
+
 Getting Started
 ===============
 After checking out the code run:
