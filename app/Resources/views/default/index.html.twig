@@ -33,6 +33,7 @@
                     <tr>
                         <th width="200">Title</th>
                         <th>Summary</th>
+                        <th>Author(s)</th>
                         <th width="150">ISBN</th>
                         <th width="150">Price</th>
                     </tr>
@@ -47,6 +48,12 @@
                             <tr>
                                 <td>{{item.title}}</td>
                                 <td>{{item.summary}}</td>
+                                <td>
+                                    {% for author in item.authors %}
+                                        {{ author.lastName }}
+                                        {% if not loop.last %},{% endif %}
+                                    {% endfor%}
+                                </td>
                                 <td>{{item.isbn}}</td>
                                 <td>${{item.price|number_format(2, '.', ',')}}</td>
                             </tr>

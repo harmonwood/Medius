@@ -44,6 +44,16 @@ class Media
     private $publishedAt;
 
     /**
+     * @ORM\ManyToMany(targetEntity="Author", inversedBy="media")
+     * @ORM\JoinTable(name="media_authors")
+     */
+    private $authors;
+
+    public function __construct () {
+        $this->authors = new ArrayCollection();
+    }
+
+    /**
      * Get the Id
      *
      * @return int
@@ -166,5 +176,39 @@ class Media
     public function getPublishedAt()
     {
         return $this->publishedAt;
+    }
+
+    /**
+     * Add author
+     *
+     * @param \AppBundle\Entity\Author $author
+     *
+     * @return Media
+     */
+    public function addAuthor(\AppBundle\Entity\Author $author)
+    {
+        $this->authors[] = $author;
+
+        return $this;
+    }
+
+    /**
+     * Remove author
+     *
+     * @param \AppBundle\Entity\Author $author
+     */
+    public function removeAuthor(\AppBundle\Entity\Author $author)
+    {
+        $this->authors->removeElement($author);
+    }
+
+    /**
+     * Get authors
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getAuthors()
+    {
+        return $this->authors;
     }
 }
