@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6d274c939f4192fa105a70835bf8d32e",
-    "content-hash": "534cc17687eb334eae240ed4db205f78",
+    "hash": "e1655a52e5ad1d65eb9c3f4b990cd65c",
+    "content-hash": "cb3acbbc6993295e22e74071be532366",
     "packages": [
         {
             "name": "components/jquery",
@@ -2504,16 +2504,16 @@
         },
         {
             "name": "zurb/foundation",
-            "version": "6.2.1",
+            "version": "6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zurb/foundation-sites.git",
-                "reference": "7a6ed604689635ddda430ae46a100d30c415959b"
+                "reference": "1e08494bb2118c9786ffc33c28158311cd542bcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zurb/foundation-sites/zipball/7a6ed604689635ddda430ae46a100d30c415959b",
-                "reference": "7a6ed604689635ddda430ae46a100d30c415959b",
+                "url": "https://api.github.com/repos/zurb/foundation-sites/zipball/1e08494bb2118c9786ffc33c28158311cd542bcb",
+                "reference": "1e08494bb2118c9786ffc33c28158311cd542bcb",
                 "shasum": ""
             },
             "type": "library",
@@ -2539,7 +2539,7 @@
                 "sass",
                 "scss"
             ],
-            "time": "2016-04-08 18:15:06"
+            "time": "2015-11-19 08:33:33"
         }
     ],
     "packages-dev": [
