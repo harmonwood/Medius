@@ -30,7 +30,7 @@
         "incenteev/composer-parameter-handler": "^2.0",
         "zurb/foundation": "^6.2",
         "symfony/assetic-bundle": "^2.8",
-        "components/jquery": "^3.1",
+        "components/jquery": "~2.2.0",
         "doctrine/doctrine-migrations-bundle": "^1.2",
         "fortawesome/font-awesome": "^4.6"
     },
